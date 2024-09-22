@@ -32,6 +32,14 @@ alpalog.info('Hello, World!')
 
 ### Methods
 
+- `alpalog.title`
+
+Shows a console log with a title in bold color with an arrow icon
+
+- `alpalog.subtitle`
+
+Shows a console log with underline
+
 - `alpalog.info`
 
 Shows a regular console log
@@ -42,15 +50,15 @@ Shows a console log with a grayed out color
 
 - `alpalog.warn`
 
-Shows a console log with a yellow color
+Shows a console log with a yellow color and a warning icon
 
 - `alpalog.error`
 
-Shows a console log with a red color
+Shows a console log with a red color and an error icon
 
 - `alpalog.success`
 
-Shows a console log with a green color
+Shows a console log with a green color and a success icon
 
 - `alpalog.json`
 
