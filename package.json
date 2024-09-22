@@ -11,7 +11,8 @@
     }
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "pnpm run build && node dist/test.js"
   },
   "author": "Fran Bosquet",
   "license": "ISC",

@@ -7,7 +7,7 @@ export const logger = {
    * @param {...unknown[]} message - The message(s) to log.
    */
   title: (...message: unknown[]) => {
-    console.log('\n➡️', pencil.bold(...message), '\n')
+    console.log(pencil.bold('\n ➡️ ', ...message), '\n')
   },
 
   /**
@@ -15,7 +15,7 @@ export const logger = {
    * @param {...unknown[]} message - The message(s) to log.
    */
   subtitle: (...message: unknown[]) => {
-    console.log('  ➡️', pencil.italic(pencil.underline(...message)))
+    console.log(pencil.italic(pencil.underline('➡️ ', ...message)), '\n')
   },
 
   /**
@@ -47,7 +47,7 @@ export const logger = {
    * @param {...unknown[]} message - The message(s) to log.
    */
   whisper: (...message: unknown[]) => {
-    console.log(pencil.gray(...message))
+    console.log('  ', pencil.gray(...message))
   },
 
   /**
